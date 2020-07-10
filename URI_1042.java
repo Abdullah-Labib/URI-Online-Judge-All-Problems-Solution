@@ -26,11 +26,11 @@ public class URI_1042 {
 			min2 =Math.min(Y, Z);
 			min3 =Math.max(Y, Z);
 		}
-		if (min1 == Y) {
+		else if (min1 == Y) {
 			min2 =Math.min(X, Z);
 			min3 =Math.max(X, Z);
 		}
-		if (min1 == Z) {
+		else if (min1 == Z) {
 			min2 = Math.min(X, Y);
 			min3 = Math.max(X, Y);
 		}
